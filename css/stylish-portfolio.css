@@ -231,6 +231,7 @@ hr.small {
     text-align:center;
     width:93%;
     text-shadow:2px 2px black;
+    pointer-events: none;
 }
 
 .portfolio-item:hover span{
