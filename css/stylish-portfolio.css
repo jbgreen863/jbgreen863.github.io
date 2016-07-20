@@ -32,6 +32,11 @@ body {
 
 }
 
+.catchPhrase{
+    font-weight:bold;
+    color:black;
+}
+
 /* Custom Button Styles */
 
 .btn-dark {
@@ -187,6 +192,8 @@ hr.small {
 
 #aboutMe{
     font-weight:bold;
+    color:black;
+
 }
 
 /* Callout */
@@ -211,6 +218,27 @@ hr.small {
 
 .portfolio-item {
     margin-bottom: 30px;
+    background-color:black;
+}
+
+.portfolio-item span{
+    position: absolute;
+    top: 20%;
+    color: white;
+    display:none;
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+    width:93%;
+    text-shadow:2px 2px black;
+}
+
+.portfolio-item:hover span{
+    display: block;
+}
+
+.portfolio-item:hover{
+    opacity:;
 }
 
 .img-portfolio {
@@ -219,7 +247,7 @@ hr.small {
 }
 
 .img-portfolio:hover {
-    opacity: 0.8;
+    opacity: 0.4;
 }
 
 /* Call to Action */
