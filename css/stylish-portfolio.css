@@ -196,6 +196,13 @@ hr.small {
 
 }
 
+#aboutMe1{
+    font-weight:bold;
+    color:black;
+    text-decoration:underline;
+
+}
+
 /* Callout */
 
 .callout {
